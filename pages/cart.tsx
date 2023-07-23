@@ -7,6 +7,7 @@ import { useCart, useCartMutations } from '@store/Cart'
 
 const CartPage = () => {
   const { items, count } = useCart()
+  console.log('items', items)
   const { removeFromCart } = useCartMutations()
 
   return (

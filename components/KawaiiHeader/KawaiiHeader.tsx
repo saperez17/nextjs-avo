@@ -15,7 +15,7 @@ const KawaiiHeader = () => {
   const toggleVisible = () => setVisible((prevVisible) => !prevVisible)
 
   useEffect(() => {
-    window.setTimeout(toggleVisible, 350)
+    // window.setTimeout(toggleVisible, 350)
   }, [])
 
   useEffect(() => {
